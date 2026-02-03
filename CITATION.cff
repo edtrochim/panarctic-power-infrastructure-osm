@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+title: "Pan-Arctic Power Infrastructure from OpenStreetMap"
+abstract: "Automated extraction and standardization of power infrastructure data from OpenStreetMap for Arctic energy system analysis using the osm-flex Python package. Extracts substations, transmission lines, poles, and towers from Alaska, Canada, Greenland, and Russia Far East."
+authors:
+  - family-names: Trochim
+    given-names: Erin
+    orcid: "https://orcid.org/0000-0002-2225-4955"
+keywords:
+  - OpenStreetMap
+  - Arctic
+  - power infrastructure
+  - transmission lines
+  - substations
+  - energy systems
+  - geospatial analysis
+  - osm-flex
+  - Python
+license: MIT
+repository-code: "https://github.com/edtrochim/panarctic-power-infrastructure-osm"
+url: "https://github.com/edtrochim/panarctic-power-infrastructure-osm"
+version: 1.0.0
+date-released: "2026-02-03"
+references:
+  - type: software
+    title: "osm-flex"
+    authors:
+      - name: "osm-flex Team"
+    repository-code: "https://github.com/osm-flex/osm-flex"
+    license: "GPL-3.0"
+  - type: dataset
+    title: "OpenStreetMap"
+    authors:
+      - name: "OpenStreetMap Contributors"
+    url: "https://www.openstreetmap.org"
+    license: "ODbL"
