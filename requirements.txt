@@ -1,0 +1,22 @@
+# Pan-Arctic OSM Data Extraction Requirements
+# Python 3.10+
+
+# Core dependencies
+osm-flex>=1.1.1
+geopandas>=1.0.1
+pandas>=2.2.0
+shapely>=2.0.0
+
+# Geospatial libraries
+pyogrio>=0.7.2
+pyproj>=3.6.0
+
+# Visualization (optional)
+matplotlib>=3.9.0
+folium>=0.17.0
+
+# For Google Colab environments only
+# condacolab
+
+# GEE integration (optional)
+# earthengine-api>=0.1.400
