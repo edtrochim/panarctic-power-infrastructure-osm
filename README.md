@@ -135,7 +135,6 @@ panarctic-power-infrastructure-osm/
 ├── LICENSE                             # MIT License (code only)
 ├── OSM_DATA_LICENSE.md                 # ⚠️ OSM ODbL license guide (READ THIS!)
 ├── OSM_ATTRIBUTION_QUICKREF.md         # Quick attribution reference
-├── CONTRIBUTING.md                     # Contributor guidelines
 ├── .gitignore                          # Git ignore rules
 
 ```
@@ -321,18 +320,6 @@ flake8 .
 black --check .
 ```
 
-### Contributing
-
-Contributions are welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
-
 ## 📝 Data Quality & Limitations
 
 ### Known Limitations
@@ -462,7 +449,6 @@ using osm-flex (GPL-3.0 License).
 - **OpenStreetMap Contributors**: For mapping Arctic infrastructure across thousands of volunteer hours
 - **[osm-flex Team](https://github.com/osm-flex/osm-flex)**: For developing and maintaining the excellent osm-flex library (GPL-3.0)
 - **[Geofabrik](https://www.geofabrik.de/)**: For providing reliable OSM regional extracts
-- **Arctic Research Community**: For data validation, feedback, and use cases
 
 ## 📧 Contact
 
@@ -476,8 +462,6 @@ For questions, issues, or collaboration opportunities, please use the [GitHub Is
 - [📦 osm-flex Library](https://github.com/osm-flex/osm-flex)
 - [🗺️ OpenStreetMap](https://www.openstreetmap.org)
 - [📥 Geofabrik Downloads](https://download.geofabrik.de/)
-- [🐛 Issue Tracker](https://github.com/yourusername/panarctic-power-infrastructure-osm/issues)
-- [💬 Discussions](https://github.com/yourusername/panarctic-power-infrastructure-osm/discussions)
 
 ---
 
