@@ -133,13 +133,9 @@ panarctic-power-infrastructure-osm/
 ├── requirements.txt                     # Python dependencies
 ├── CITATION.cff                        # Citation metadata
 ├── LICENSE                             # MIT License (code only)
-├── OSM_DATA_LICENSE.md                 # ⚠️ OSM ODbL license guide (READ THIS!)
-├── OSM_ATTRIBUTION_QUICKREF.md         # Quick attribution reference
 ├── .gitignore                          # Git ignore rules
 
 ```
-
-**⚠️ IMPORTANT**: Before using or sharing OSM data, read `OSM_DATA_LICENSE.md` to understand OpenStreetMap's ODbL license requirements.
 
 ## 🔧 Methodology
 
@@ -304,21 +300,6 @@ This dataset can be used for various Arctic energy analyses:
 - **[Geofabrik](https://download.geofabrik.de/)** - OSM regional extract provider
 - **[Google Earth Engine](https://earthengine.google.com/)** - Cloud-based geospatial analysis platform
 
-## 🛠️ Development
-
-### Running Tests
-
-```bash
-# Install development dependencies
-pip install -r requirements-dev.txt
-
-# Run tests
-pytest tests/
-
-# Check code style
-flake8 .
-black --check .
-```
 
 ## 📝 Data Quality & Limitations
 
