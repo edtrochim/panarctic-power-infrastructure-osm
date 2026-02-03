@@ -331,16 +331,6 @@ black --check .
 - **Russia Data**: Limited validation due to language barriers and accessibility
 - **Voltage Ambiguity**: Multiple voltage levels sometimes listed in single field
 
-### Quality Control
-
-The workflow includes automated checks for:
-- Geometry validity
-- Coordinate system consistency
-- Duplicate features
-- Missing critical attributes
-- Spatial extent validation
-
-See [docs/data_quality.md](docs/data_quality.md) for detailed quality assessment.
 
 ### Validation Recommendations
 
