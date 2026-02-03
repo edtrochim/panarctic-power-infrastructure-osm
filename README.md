@@ -443,9 +443,9 @@ using osm-flex (GPL-3.0 License).
 ## 📧 Contact
 
 **Author**: Erin Trochim  
-**Project Link**: [https://github.com/yourusername/panarctic-power-infrastructure-osm](https://github.com/yourusername/panarctic-power-infrastructure-osm)
+**Project Link**: [https://github.com/edtrochim/panarctic-power-infrastructure-osm](https://github.com/edtrochim/panarctic-power-infrastructure-osm)
 
-For questions, issues, or collaboration opportunities, please use the [GitHub Issues](https://github.com/yourusername/panarctic-power-infrastructure-osm/issues) page.
+For questions, issues, or collaboration opportunities, please use the [GitHub Issues](https://github.com/edtrochim/panarctic-power-infrastructure-osm/issues) page.
 
 ## 🔗 Links
 
