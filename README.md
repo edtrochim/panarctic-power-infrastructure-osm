@@ -424,7 +424,7 @@ If you use this workflow or data in your research, please cite:
   title={Pan-Arctic Power Infrastructure from OpenStreetMap},
   author={Trochim, Erin},
   year={2026},
-  url={https://github.com/yourusername/panarctic-power-infrastructure-osm}
+  url={https://github.com/edtrochim/panarctic-power-infrastructure-osm}
 }
 ```
 
