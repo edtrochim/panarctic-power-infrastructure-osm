@@ -89,7 +89,7 @@ python extract_osm_power_infrastructure.py --help
 
 ## 📊 Data Coverage
 
-### Infrastructure Counts by Region
+### Infrastructure Counts by Region as of July 2024
 
 | Region | Substations | Transmission Lines | Poles & Towers | Last Updated |
 |--------|-------------|-------------------|----------------|--------------|
@@ -137,18 +137,7 @@ panarctic-power-infrastructure-osm/
 ├── OSM_ATTRIBUTION_QUICKREF.md         # Quick attribution reference
 ├── CONTRIBUTING.md                     # Contributor guidelines
 ├── .gitignore                          # Git ignore rules
-├── data/                               # Data directory (git-ignored)
-│   ├── osm/
-│   │   ├── pbf/                       # Downloaded OSM files
-│   │   └── outputs/                   # Generated shapefiles
-│   └── README.md                      # Data documentation
-├── docs/                              # Additional documentation
-│   ├── methodology.md                 # Detailed methodology
-│   ├── data_quality.md               # Quality assessment
-│   └── gee_integration.md            # Google Earth Engine guide
-└── examples/                          # Usage examples
-    ├── basic_extraction.py
-    └── regional_analysis.py
+
 ```
 
 **⚠️ IMPORTANT**: Before using or sharing OSM data, read `OSM_DATA_LICENSE.md` to understand OpenStreetMap's ODbL license requirements.
@@ -253,46 +242,6 @@ Generate shapefiles for each:
 - Feature-specific datasets (substations, lines, poles)
 - Combined Pan-Arctic dataset
 - Summary statistics (CSV)
-
-## 📦 Output Files
-
-The workflow generates the following shapefiles in the output directory:
-
-### Regional Substations
-```
-outputs/
-├── alaska_substations.shp              # Alaska substations (148 features)
-├── canada_substations.shp              # Canada substations (5,972 features)
-├── greenland_substations.shp           # Greenland substations (15 features)
-├── russia_far_east_substations.shp     # Russia substations (3,745 features)
-└── panarctic_all_substations.shp       # Combined dataset (9,880 features)
-```
-
-### Transmission Lines
-```
-outputs/
-├── alaska_lines.shp                    # Alaska transmission lines
-├── canada_lines.shp                    # Canada transmission lines
-├── greenland_lines.shp                 # Greenland transmission lines
-├── russia_far_east_lines.shp           # Russia transmission lines
-└── panarctic_all_lines.shp             # Combined lines dataset
-```
-
-### Support Structures (Poles & Towers)
-```
-outputs/
-├── alaska_poles_towers.shp             # Alaska support structures
-├── canada_poles_towers.shp             # Canada support structures
-├── greenland_poles_towers.shp          # Greenland support structures
-├── russia_far_east_poles_towers.shp    # Russia support structures
-└── panarctic_all_poles_towers.shp      # Combined structures dataset
-```
-
-### Summary Statistics
-```
-outputs/
-└── extraction_summary.csv              # Counts and statistics
-```
 
 ### Metadata & Attribution
 
@@ -534,7 +483,7 @@ If you use this workflow or data in your research, please cite:
 @software{panarctic_osm_power,
   title={Pan-Arctic Power Infrastructure from OpenStreetMap},
   author={Trochim, Erin},
-  year={2025},
+  year={2026},
   url={https://github.com/yourusername/panarctic-power-infrastructure-osm}
 }
 ```
