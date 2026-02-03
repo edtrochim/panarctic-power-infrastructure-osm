@@ -412,8 +412,7 @@ More info: https://osmfoundation.org/wiki/Licence
 
 The **osm-flex** library used for data extraction is licensed under **GPL-3.0**.
 - Repository: https://github.com/osm-flex/osm-flex
-- You are using osm-flex as a library (not modifying it)
-- No GPL requirements apply to your MIT-licensed scripts
+- This packages uses osm-flex as a library (not modifying it)
 
 ## 📚 Citation
 
